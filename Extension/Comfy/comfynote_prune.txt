@@ -1,3 +1,17 @@
+git clone https://github.com/ltdrdata/ComfyUI-Impact-Pack
+git clone https://github.com/evanspearman/ComfyMath
+pip install -q -r ComfyMath/requirements.txt
+git clone https://github.com/theUpsider/ComfyUI-Logic
+git clone https://github.com/mav-rik/facerestore_cf
+git clone https://github.com/cubiq/ComfyUI_essentials
+git clone https://github.com/kijai/ComfyUI-KJNodes
+pip install -q -r /content/ComfyUI/custom_nodes/ComfyUI-KJNodes/requirements.txt
+git clone https://github.com/kijai/ComfyUI-Florence2
+pip install -q -r /content/ComfyUI/custom_nodes/ComfyUI-Florence2/requirements.txt
+https://github.com/stavsap/comfyui-ollama
+pip install -q -r /content/ComfyUI/custom_nodes/comfyui-ollama/requirements.txt
+git clone https://github.com/un-seen/comfyui-tensorops
+git clone https://github.com/gseth/ControlAltAI-Nodes
 git clone https://github.com/ltdrdata/ComfyUI-Manager
 git clone https://github.com/rgthree/rgthree-comfy
 git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts
@@ -39,6 +53,7 @@ git clone https://github.com/shiimizu/ComfyUI-TiledDiffusion
 git clone https://github.com/ssitu/ComfyUI_UltimateSDUpscale --recursive
 
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt -d /content/ComfyUI/models/vae -o VAE84.vae.pt
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/vae/diffusion_pytorch_model.safetensors -d /content/ComfyUI/models/vae -o Flux VAE.safetensors
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/phamhungd/GuoZovya/resolve/main/4x-UltraSharp.ckpt -d /content/ComfyUI/models/upscale_models -o 4x-UltraSharp.pth
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/stabilityai/control-lora/resolve/main/revision/clip_vision_g.safetensors -d /content/ComfyUI/models/clip_vision -o clip_vision_g.safetensor
 
