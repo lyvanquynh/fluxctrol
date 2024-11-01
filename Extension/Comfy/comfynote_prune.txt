@@ -1,8 +1,10 @@
 git clone https://github.com/ltdrdata/ComfyUI-Impact-Pack
+pip install -q -r /content/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/requirements.txt
 git clone https://github.com/evanspearman/ComfyMath
 pip install -q -r ComfyMath/requirements.txt
 git clone https://github.com/theUpsider/ComfyUI-Logic
 git clone https://github.com/mav-rik/facerestore_cf
+pip install -q -r /content/ComfyUI/custom_nodes/facerestore_cf/requirements.txt
 git clone https://github.com/cubiq/ComfyUI_essentials
 git clone https://github.com/kijai/ComfyUI-KJNodes
 pip install -q -r /content/ComfyUI/custom_nodes/ComfyUI-KJNodes/requirements.txt
@@ -11,6 +13,7 @@ pip install -q -r /content/ComfyUI/custom_nodes/ComfyUI-Florence2/requirements.t
 https://github.com/stavsap/comfyui-ollama
 pip install -q -r /content/ComfyUI/custom_nodes/comfyui-ollama/requirements.txt
 git clone https://github.com/un-seen/comfyui-tensorops
+pip install -q -r /content/ComfyUI/custom_nodes/comfyui-tensorops/requirements.txt
 git clone https://github.com/gseth/ControlAltAI-Nodes
 git clone https://github.com/ltdrdata/ComfyUI-Manager
 git clone https://github.com/rgthree/rgthree-comfy
