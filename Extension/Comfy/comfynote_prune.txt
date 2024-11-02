@@ -41,6 +41,7 @@ pip install triton
 
 git clone https://github.com/ltdrdata/ComfyUI-Impact-Pack
 pip install -q -r /content/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/requirements.txt
+python /content/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/install-manual.py
 git clone https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes
 git clone https://github.com/WASasquatch/was-node-suite-comfyui /content/ComfyUI/custom_nodes/was-node-suite-comfyui
 pip install -r /content/ComfyUI/custom_nodes/was-node-suite-comfyui/requirements.txt
